@@ -23,10 +23,10 @@ using namespace std;
 
 int main(){
 int n = 4; 
-for (int i = 0; i < n; i++) {
+for (int i = 0; i < n; i++) {    // print form 0 to 4 
 
     // Left stars
-    for (int j = 0; j <= i; j++) {
+    for (int j = 0; j <= i; j++) { 
         cout << "*";
     }
 
@@ -60,3 +60,12 @@ for (int i = 0; i < n; i++) {
     }
     return 0;
 }
+// output:
+// *      *
+// **    **
+// ***  ***
+// ********
+// ********
+// ***  ***
+// **    **
+// *      *
