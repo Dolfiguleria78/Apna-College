@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int nums[]={5,15,22,1,-15,-24};
+    int size=6;
+
+    int minIndex=0;
+    int maxIndex=0;
+     for(int i=0;i<size;i++){
+        if(nums[i]<nums[minIndex]){
+            minIndex=i;
+        }
+        if(nums[i]>nums[maxIndex]){
+            maxIndex=i;
+
+        }
+        }
+        cout<<"indexofsmallest="<<minIndex<<endl;
+        cout<<"indexoflargest="<<maxIndex<<endl;
+return 0;
+
+     }
